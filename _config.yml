@@ -1,47 +1,47 @@
-# Setup
-title: Noir
-tagline: a dark mode friendly Jekyll theme
-url: https://pamoo1.github.io/bloag
-paginate: 1
-baseurl: ""
-permalink: :title/
 
-kramdown:
-    footnote_backlink: "&#10548;"
+title: Catbook #Your awesome title
+email: #youremail@domain.com
+description: > # this means to ignore newlines until "baseurl"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-target-blank
+baseurl: # the subpath of the site
+url: https://pamoo1.github.io/bloag/ # the base hostname & protocol for your site
 
-# Optimize Jekyll
+permalink: /:year-:month/:title
+timezone:
+
+favicon: /assets/img/favicon.ico
+
+google_analytics: #UA—XXXXXXXX-X
+disqus_shortname: #disqus shortname
+
+user:
+  name: Catbook
+  pic: /assets/img/cat.jpg
+  picAlt: "catbook"
+  job: a category-centric theme
+  aboutme: true # comment this out if you don't need the 'about' page.
+
 exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
   - README.md
+  - LICENSE
+  - github
 
-sass:
-  sass_dir: _sass
-  style: :compressed
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comment: true   
 
-# Options
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown 
 
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
-author:
-  name: Victor Johnson
-  url: https://twitter.com/essentialenemy
-  email: me@essentialenemy.com
-
-# Custom vars
-version: 1.3.0
-github:
-  repo: https://github.com/essentialenemy/noir
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
