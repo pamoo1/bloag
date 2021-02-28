@@ -1,0 +1,43 @@
+변수명 앞의 int, String 등은 변수의 자료형(Type)을 뜻한다.
+
+int a; 라는 문장은 다음과 같이 해석된다.
+
+변수a 는 int 자료형 변수이다. 즉 a라는 변수에는 int 자료형 값(1, 10, 25 등의 정수값)만 담을 수 있다.
+
+String b; 라는 문장은 다음과 같이 해석된다.
+
+변수 b는 String 자료형 변수이다. 즉 b라는 변수에는 String 자료형 값("a", "hello" 등의 문자열값)만 담을 수 있다.
+
+변수에 값 대입하기
+변수 선언 후 다음과 같이 변수에 값을 대입 할 수 있다.
+
+int a;
+String b;
+
+a = 1;
+b = "hello java";
+변수에 값을 대입할 때는 위의 예에서와 같이 =(assignment) 기호를 사용한다.
+
+a = 1; 이라는 문장은 다음과 같이 해석된다.
+
+int 자료형 변수 a에 1 이라는 값을 대입한다.
+
+b = "hello java"; 라는 문장은 다음과 같이 해석된다.
+
+String 자료형 변수 b에 "hello java" 라는 값을 대입한다.
+
+다음과 같이 변수를 선언함과 동시에 값을 대입할 수도 있다.
+예시:
+int number1 = 10; // 정수형변수 number1을 선언하고 10으로 초기화
+short number2 = 10; // 정수형변수 number2을 선언하고 10으로 초기화
+long number3 = 10L; // 정수형변수 number3을 선언하고 10으로 초기화
+(int,short,long은 모두 정수형이지만 저장할 수 있는 데이터의 양이 다르다.short<int<long순,long은 쓸 때 L을 붙인다.)
+
+double number4 = 10.0; // 실수형 변수 number4를 선언하고 10.0으로초기화
+float number5 = 10.0f; // 실수형 변수 number5을 선언하고 10.0으로 초기화
+(double,float은 모두 실수형이지만 저장할 수 있는 데이터의 양이 다르다.double<float순,float은 쓸 때 f를 붙인다.)
+
+char character = 'f'; // 문자형 변수 character선언 f로 초기화
+boolean flag = true; // boolean 변수 flag 선언 true초기화, boolean의 값은 true, false 두개의값만가질수있다.
+
+String str = "Hello world";
