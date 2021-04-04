@@ -5,8 +5,11 @@
   객체들이 추가되어 저장 용량을 초과한다면 자동으로 부족한 크기만큼 저장 용량이 늘어난다.
   
   1-3-사용방법:
+  
     선언: ArrayList<String> 이름=new ArrayList<>();
+    
     값 추가:stringArrayList.add("넣을 내용");
+    
     값 삭제:stringArrayList.remove(없앨 변수의 순서(예:0을 넣으면 0번째칸 값이 삭제된다.);
     
 2-Hashmap:
@@ -15,8 +18,11 @@
   2-2-특징:key와 value가 한 쌍으로 이루어짐,값이 순서대로 들어감
   
   2-3-사용방법:
+  
     선언: HashMap<String,Integer> 이름=new HashMap<>();
+  
     값 추가: 이름.put("넣을려는 key",넣을려는 value);
+    
     값 삭제: 이름.remove("삭제하고싶은 key");
     
     이상 오늘은java의 Arraylist와 HashMap의 대해서 정리해 보았다.
