@@ -11,7 +11,9 @@
     
 2-Hashmap:
   2-1-정의:key와 value의 쌍으로 이루어진 데이터를 보관하는 Map의 일종
+  
   2-2-특징:key와 value가 한 쌍으로 이루어짐,값이 순서대로 들어감
+  
   2-3-사용방법:
     선언: HashMap<String,Integer> 이름=new HashMap<>();
     값 추가: 이름.put("넣을려는 key",넣을려는 value);
