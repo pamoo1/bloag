@@ -23,11 +23,12 @@
   
   2-3-사용방법:
   
+```java
     선언: HashMap<String,Integer> 이름=new HashMap<>();
   
     값 추가: 이름.put("넣을려는 key",넣을려는 value);
     
     값 삭제: 이름.remove("삭제하고싶은 key");
+ ```   
     
-    
-    이상 오늘은java의 Arraylist와 HashMap의 대해서 정리해 보았다.
+ 이상 오늘은java의 Arraylist와 HashMap의 대해서 정리해 보았다.
