@@ -29,4 +29,5 @@
     
     값 삭제: 이름.remove("삭제하고싶은 key");
     
+    
     이상 오늘은java의 Arraylist와 HashMap의 대해서 정리해 보았다.
