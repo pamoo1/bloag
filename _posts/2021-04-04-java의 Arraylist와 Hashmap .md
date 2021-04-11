@@ -1,3 +1,11 @@
+---
+title: java의 Arraylist와 Hashmap 
+categories: [dev]
+comments: true
+---
+java의 Arraylist와 Hashmap 
+=============
+
 1-Arraylist:
 
   1-1-정의:List 인터페이스를 상속받은 클래스로 크기가 가변적으로 변하는 선형리스트
