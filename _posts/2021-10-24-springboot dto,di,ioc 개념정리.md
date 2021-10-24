@@ -1,3 +1,8 @@
+---
+title:springboot dto,di,ioc 개념정리,
+categories: [dev]
+comments: true
+---
 
 springboot dto,di,ioc 개념정리
 =============
