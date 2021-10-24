@@ -143,6 +143,7 @@ public class ExampleService {
 
 (Bean이란?:Spring IoC 컨테이너가 관리하는 자바 객체)
 
+Bean에서 Component Scan 어노테이션을 이용하여
 
 
 참고:
