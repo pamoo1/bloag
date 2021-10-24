@@ -134,6 +134,7 @@ public class ExampleService {
     // DI
     private final ExampleRepository exampleRepository;		
 }
+```
 
 두번째 방법은 의존 객체를 외부에서 주입하는 방법이다.
 
